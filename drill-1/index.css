@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+#div-1 {
+    position: relative;
+    top: 0px;
+    left: 0px; 
+    background-color: rgb(57, 57, 57);
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+#div-2 {
+    position: fixed;
+    width: 150px; 
+    height: 100%; 
+    top: 100px; 
+    right: 0px; 
+    bottom: 0px; 
+    background-color: darkgray;
+    z-index: 2;
+}
+
+#div-3 {
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    top: 100px;
+    left: 0px;
+    bottom: 0px;
+    background-color: darkgray;
+    z-index: 2;
+}
+
+#div-4 {
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    left: 150px; 
+    top: 85%;
+    background-color: black;
+    z-index: 1;
+} 
